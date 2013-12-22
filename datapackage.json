@@ -1,0 +1,35 @@
+{
+  "name": "geo-boundaries-world-110m",
+  "title": "Country Polygons as GeoJSON at 1:110m",
+  "version": "0.1.0",
+  "description": "geodata data package providing geojson polygons for all the world's countries",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/datasets/geo-boundaries-world-110m.git"
+  },
+  "sources": [{
+    "name": "Natural Earth",
+    "web": "http://www.naturalearthdata.com/downloads/10m-cultural-vectors/"
+  }],
+  "keywords": [
+    "geodata",
+    "vector"
+  ],
+  "licenses": {
+    "type": "ODC-PDDL",
+    "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+  },
+  "resources": [
+    {
+      "name": "countries",
+      "path": "countries.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 689418
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/datasets/geo-boundaries-world-110m/issues"
+  },
+  "homepage": "https://github.com/datasets/geo-boundaries-world-110m"
+}
