@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/datasets/geo-boundaries-world-110m/issues"
   },
-  "homepage": "https://github.com/datasets/geo-boundaries-world-110m"
+  "homepage": "https://github.com/datasets/geo-boundaries-world-110m",
+  "has_solutions": [
+    "global-country-region-reference-data"
+  ]
 }
